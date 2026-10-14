@@ -13,7 +13,7 @@
    --------------------------------------------------------------------- */
 const birthdayConfig = {
   // ✏️ Her name (shown in big script lettering)
-  girlfriendName: "HER_NAME",
+  girlfriendName: "my cute bebes",
 
   // ✏️ Pet name used in the heading: "Happy Birthday, <nickname>!"
   nickname: "My Princess",
@@ -23,10 +23,10 @@ const birthdayConfig = {
     "Today the whole world celebrates you, but nobody celebrates you quite like I do. I hope this day is as beautiful as you are.",
 
   // ✏️ Your name (letter signature, final screen, footer)
-  yourName: "YOUR_NAME",
+  yourName: "YOUR_BABY",
 
   // ✏️ Her birthday, e.g. "14 October". Leave as "HER_BIRTHDAY_DATE" to hide it.
-  specialDate: "HER_BIRTHDAY_DATE",
+  specialDate: "OCOTOBER15",
 
   // ✏️ Short line under her name on the hero
   heroSubtitle: "A little world, made just for you.",
@@ -34,10 +34,10 @@ const birthdayConfig = {
   // ✏️ PHOTOS — put your pictures in the assets/ folder.
   // Add or remove lines freely (4–6 photos look best).
   photos: [
-    { src: "assets/photo1.jpg", caption: "A moment I'll always keep" },
-    { src: "assets/photo2.jpg", caption: "Just us" },
-    { src: "assets/photo3.jpg", caption: "Smiling because of you" },
-    { src: "assets/photo4.jpg", caption: "One of my favourite days" }
+    { src: "assets/picture1.jpeg", caption: "My favourite smile" },
+    { src: "assets/picture2.jpeg", caption: "Missing this face" },
+    { src: "assets/picture3.jpeg", caption: "My girl, my home" },
+    { src: "assets/picture4.jpeg", caption: "Beautiful, even from far away" }
     // { src: "assets/photo5.jpg", caption: "Your caption" },
     // { src: "assets/photo6.jpg", caption: "Your caption" },
   ],
@@ -45,11 +45,10 @@ const birthdayConfig = {
   // ✏️ LETTER — each line is one paragraph. Replace with your own words,
   // real memories and inside jokes. Add or remove lines freely.
   letterParagraphs: [
-    "My dearest {name},",
-    "Today is your day, and I wanted to give you something more than a message on a screen — a little world made only for you.",
-    "I'm so grateful that I get to know you. You bring warmth, laughter and a kind of calm into my life that I never want to take for granted.",
-    "There are so many moments I hold close, and I wish I could fit them all in one letter. So I'll just say this: every one of them matters to me, because you were in them.",
-    "On your birthday I hope you feel as loved as you make everyone around you feel. You deserve every bit of happiness this year can hold.",
+     "My dearest {name},",
+    "Today I wish I could be right next to you. Since I can't, I made you this little world instead.",
+    "The distance between us is hard, but it has only made me surer of you. Wherever you are, you are my home.",
+    "One day this will be a story we tell together. Until then, I choose you every single day.",
     "Happy birthday, {nickname}. I love you."
   ],
   // ✏️ Sign-off above your name at the end of the letter

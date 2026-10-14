@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -9,12 +9,15 @@
   <title>A Birthday Surprise 💌</title>
 
   <!-- Simple heart favicon (no extra file needed) -->
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9D%A4%EF%B8%8F%3C/text%3E%3C/svg%3E">
+  <link rel="icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9D%A4%EF%B8%8F%3C/text%3E%3C/svg%3E">
 
   <!-- Google Fonts (falls back to Georgia / system fonts if offline) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Poppins:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
 </head>
@@ -79,7 +82,8 @@
         </p>
 
         <div class="hero__item" style="--i:5">
-          <button id="cakeBtn" class="cake" type="button" aria-pressed="false" aria-label="Blow out the candles and make a wish">
+          <button id="cakeBtn" class="cake" type="button" aria-pressed="false"
+            aria-label="Blow out the candles and make a wish">
             <span class="cake__candles" aria-hidden="true">
               <span class="candle"><span class="flame"></span></span>
               <span class="candle"><span class="flame"></span></span>
@@ -103,8 +107,8 @@
     <!-- 3. PHOTO GALLERY -->
     <section id="memories" class="section" aria-labelledby="memTitle">
       <div class="section__head reveal">
-        <h2 id="memTitle" class="section__title">Our Memories 📸</h2>
-        <p class="section__lead">Tap a memory to see it bigger.</p>
+        <h2 id="memTitle" class="section__title">Missing You 📸</h2>
+        <p class="section__lead">Tap a photo to see my favourite person bigger.</p>
       </div>
       <!--
         ✏️ PHOTOS: the photos are generated from the "photos" list in script.js.
@@ -123,7 +127,8 @@
       <div class="letter reveal">
         <div id="letterClosed" class="letter__closed">
           <div class="letter__seal" aria-hidden="true">💌</div>
-          <button id="readLetterBtn" class="btn btn--glow" type="button" aria-controls="letterPaper">Read My Heart</button>
+          <button id="readLetterBtn" class="btn btn--glow" type="button" aria-controls="letterPaper">Read My
+            Heart</button>
         </div>
 
         <!-- ✏️ LETTER TEXT: edit "letterParagraphs" in script.js -->
@@ -145,7 +150,7 @@
     <section id="quiz" class="section" aria-labelledby="quizTitle">
       <div class="section__head reveal">
         <h2 id="quizTitle" class="section__title">A Tiny Love Quiz 💘</h2>
-        <p class="section__lead">Just for fun — answer, or skip it whenever you like.</p>
+        <!-- <p class="section__lead">Just for fun — answer, or skip it whenever you like.</p> -->
       </div>
 
       <div id="quizCard" class="quiz glass reveal">
@@ -238,4 +243,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>
